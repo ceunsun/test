@@ -24,8 +24,19 @@ public class MemberController {
 		System.out.println(find);
 		
 		if(find.getId().equals(id) && find.getPwd().equals(pwd)){
-			session.setAttribute("id", id);
+			String name = find.getName();
+			int penalty = find.getPenalty();
+			
+			session.setAttribute("name", name);
+			session.setAttribute("penalty", penalty);
 		}
+		
+		return "home";
+	}
+	
+	@RequestMapping(value="logout.do", method=RequestMethod.GET)
+	public String logout(HttpSession session){
+		session.removeAttribute("name");
 		
 		return "home";
 	}

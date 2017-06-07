@@ -11,21 +11,20 @@
 		<div class="col-lg-4 col-md-4 col-sm-6">
 			<!-- Nav tabs -->
 			<div class="tm-home-box-1">
-				<ul class="nav nav-tabs tm-white-bg" role="tablist"
+				<ul class="nav nav-tabs" role="tablist"
 					id="hotelCarTabs">
 					<li role="presentation" class="active"><a href="#hotel"
-						aria-controls="hotel" role="tab" data-toggle="tab">CAR</a></li>
+						aria-controls="hotel" role="tab" data-toggle="tab">실시간 예약</a></li>
 				</ul>
 				
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane fade in active tm-gray-bg"
-						id="car">
+				<div class="tab-content tm-white-bg">
+					<div role="tabpanel" class="tab-pane fade in active id="car">
 						<div class="tm-search-box effect2">
 							<form class="hotel-search-form">
 								<div class="tm-form-inner">
 									<div class="form-group">
 										<select class="form-control">
-											<option value="">-- Select Hotel --</option>
+											<option value="">-- 차종 --</option>
 											<option value="shangrila">Shangri-La</option>
 											<option value="chatrium">Chatrium</option>
 											<option value="fourseasons">Four Seasons</option>
@@ -34,18 +33,15 @@
 									</div>
 									<div class="form-group margin-bottom-0">
 										<select class="form-control">
-											<option value="">-- Guests --</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5p">5+</option>
+											<option value="">-- 연료 --</option>
+											<option value="1">전기</option>
+											<option value="2">휘발유</option>
 										</select>
 									</div>
 									<div class="form-group">
 										<div class='input-group date' id='datetimepicker1'>
 											<input type='text' class="form-control"
-												placeholder="Check-in Date" /> <span
+												placeholder="-- 대여일 --" /> <span
 												class="input-group-addon"> <span
 												class="fa fa-calendar"></span>
 											</span>
@@ -54,7 +50,7 @@
 									<div class="form-group">
 										<div class='input-group date' id='datetimepicker2'>
 											<input type='text' class="form-control"
-												placeholder="Check-out Date" /> <span
+												placeholder="-- 반납일 --" /> <span
 												class="input-group-addon"> <span
 												class="fa fa-calendar"></span>
 											</span>
@@ -63,7 +59,7 @@
 								</div>
 								<div class="form-group tm-yellow-gradient-bg text-center">
 									<button class="tm-yellow-btn" data-toggle="modal"
-										data-target="#searchModal">Check Now</button>
+										data-target="#searchModal">예약 가능 조회</button>
 									<!-- <button type="submit" name="submit" class="tm-yellow-btn" data-toggle="modal" data-target="#myModal">Check Now</button> -->
 								</div>
 							</form>
@@ -95,8 +91,7 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="section-margin-top">
+	<!-- <div class="section-margin-top">
 		<div class="row">
 			<div class="tm-section-header">
 				<div class="col-lg-3 col-md-3 col-sm-3">
@@ -111,7 +106,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<!-- <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">
 						<img src="img/index-03.jpg" alt="image" class="img-responsive">
 						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>

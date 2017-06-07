@@ -4,7 +4,6 @@
 <!-- white bg -->
 <section class="tm-white-bg section-padding-bottom">
 	<div class="container">
-		<div class="row">
 			<div class="tm-section-header section-margin-top">
 				<div class="col-lg-4 col-md-3 col-sm-3">
 					<hr>
@@ -16,7 +15,6 @@
 					<hr>
 				</div>
 			</div>
-		</div>
 		<div class="row">
 			<!-- Testimonial -->
 			<div class="col-lg-12">
@@ -24,7 +22,7 @@
 					<div class="row">
 					<div class="dreamcrub">
 						<ul class="breadcrumbs">
-							<li class="home"><a href="main.syt" title="Go to Home Page">Home</a>&nbsp;
+							<li class="home"><a href="home.do" title="Go to Home Page">Home</a>&nbsp;
 								<span>&gt;</span></li>
 							<li class="women">Board</li>
 						</ul>
@@ -43,10 +41,7 @@
 								</select> <a href=""><img src="img/arrow2.gif" alt="" class="v-middle"></a>
 							</div>
 						</div>
-						<ul class="pagenation">
-							<li class="active"><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-						</ul>
+						
 						<div class="clearfix"></div>
 					</div>
 					<table class="table table-hover table-responsive table-striped board_table">
@@ -63,8 +58,16 @@
 							</c:forEach>
 						</tbody>
 					</table>
-				</div>
-				</div>
+					</div>
+					<div class="boardbtn">
+						<a href="main.syt?view=boardmain"><input type="button" value="글쓰기"></a>
+						<ul class="pagenation">
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+						</ul>
+					</div>
+					
+				</div>				
 				<div class="tm-testimonials-box">
 					<h3 class="tm-testimonials-title">KDN Car Rental System</h3>
 					
@@ -81,8 +84,8 @@
 						<li><a href="board.do">Board</a></li>
 						<li><a href="contact.do">Contact</a></li>
 					</ul> --%>
-				</div>
+				</div>				
 			</div>
-		</div>
+		</div>		
 	</div>
 </section>
