@@ -32,8 +32,6 @@ public class HomeController {
 		return "about/about";
 	}
 	
-
-
 	@RequestMapping(value = "board.do", method = RequestMethod.GET)
 	public String tours(Model model) {
 		
@@ -44,5 +42,11 @@ public class HomeController {
 	public String contact(Model model) {
 		
 		return "contact/contact";
+	}
+	
+	@RequestMapping(value = "myPage.do", method = RequestMethod.GET)
+	public String myPage(Model model) {
+		
+		return "myPage/myPage";
 	}
 }

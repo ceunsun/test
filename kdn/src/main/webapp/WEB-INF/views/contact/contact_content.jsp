@@ -52,11 +52,14 @@
 				</div>
 			</div>
 		</div>
+		<div id="contact-map">
+					<iframe src="https://www.google.com/maps/embed/v1/place?q=%EB%A9%80%ED%8B%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4&key=AIzaSyDdbPoIrCQAdsJGUcY3Ux9wuxuzrJmA6c0">
+					</iframe>
+					</div>
 		<div class="row">
 			<!-- contact form -->
 			<form action="#" method="post" class="tm-contact-form">
 				<div class="col-lg-6 col-md-6">
-					<div id="google-map"></div>
 					<div class="contact-social">
 						<a href="#" class="tm-social-icon tm-social-facebook"><i
 							class="fa fa-facebook"></i></a> <a href="#"

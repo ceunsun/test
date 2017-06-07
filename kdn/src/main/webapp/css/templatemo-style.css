@@ -326,7 +326,14 @@ ul.pagenation li.active a, ul.pagenation li a:hover {
 	border-left: none;
 	border-right: none;
 }
-
+.contact-map{
+	width:100%;
+	margin-bottom: 52px;
+}
+.contact-map iframe{
+	width:100%;
+	height:330px;
+}
 /*http://cssdeck.com/labs/different-css3-box-shadows-effects*/
 /*==================================================
  * Effect 2
