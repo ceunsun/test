@@ -4322,18 +4322,23 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 .nav>li {
 	position: relative;
-	display: block
+	display: block;
+	margin: 15px 0;
 }
 
 .nav>li>a {
 	position: relative;
 	display: block;
-	padding: 10px 15px
+	padding: 10px 15px;
+	color: rgb(138, 71, 59);
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
 	text-decoration: none;
-	background-color: #eee
+	background-color: transparent;
+	border: solid 1px;
+	border-color: #FCDD44;
+	color: #FCDD44;
 }
 
 .nav>li.disabled>a {
@@ -4899,7 +4904,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 .navbar-default {
 	background-color: #f8f8f8;
-	border-color: #e7e7e7
+	border-color: #e7e7e7;
+	height: 100%;
 }
 
 .navbar-default .navbar-brand {
@@ -4952,9 +4958,9 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #e7e7e7
+	border-color: #e7e7e7;
+	width: 100%;
 }
-
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
 	.navbar-default .navbar-nav>.open>a:hover {
 	color: #555;

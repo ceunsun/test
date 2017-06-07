@@ -9,7 +9,7 @@
 					<hr>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
-					<h2 class="tm-section-title">신고 게시판</h2>
+					<h2 class="tm-section-title">고객 센터</h2>
 				</div>
 				<div class="col-lg-4 col-md-3 col-sm-3">
 					<hr>
@@ -20,27 +20,34 @@
 			<!-- Testimonial -->
 			<div class="col-lg-12">
 				<div class="tm-what-we-do-right">
-					<div class="col-lg-6 col-md-6 tm-contact-form-input">
-						<div class="form-group">
-							<input type="text" id="contact_name" class="form-control"
-								placeholder="NAME" />
-						</div>
-						<div class="form-group">
-							<input type="email" id="contact_email" class="form-control"
-								placeholder="EMAIL" />
-						</div>
-						<div class="form-group">
-							<input type="text" id="contact_subject" class="form-control"
-								placeholder="SUBJECT" />
-						</div>
-						<div class="form-group">
-							<textarea id="contact_message" class="form-control" rows="6"
-								placeholder="MESSAGE"></textarea>
-						</div>
-						<div class="form-group">
-							<button class="tm-submit-btn" type="submit" name="submit">Submit
-								now</button>
-						</div>
+					<div class="dreamcrub">
+						<ul class="breadcrumbs">
+							<li class="home">
+								<a href="home.do" title="Go to Home Page">
+									<span class="glyphicon glyphicon-home"></span> 홈
+								</a>&nbsp;
+								<span>&gt;</span></li>
+							<li class="women">신고 게시판</li>
+						</ul>
+						<ul class="previous">
+							<li><a href="main.syt">이전 페이지로</a></li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<div class="form-group">
+						<input type="text" id="contact_name" class="form-control"
+							placeholder="이름" />
+					</div>
+					<div class="form-group">
+						<input type="text" id="contact_subject" class="form-control"
+							placeholder="글 제목을 입력하세요" />
+					</div>
+					<div class="form-group">
+						<textarea id="contact_message" class="form-control" rows="16"
+							placeholder="내용을 입력하세요"></textarea>
+					</div>
+					<div class="boardbtn">
+						<a href="writeForm.do"><input type="button" value="작성 완료"></a>
 					</div>
 				</div>
 				<div class="tm-testimonials-box">

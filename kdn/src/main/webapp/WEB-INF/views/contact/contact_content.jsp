@@ -2,8 +2,11 @@
 	pageEncoding="UTF-8"%>
 <section class="container tm-home-section-1" id="more">
 	<div class="row">
-		<!-- slider -->
-		<div class="flexslider effect2 effect2-contact tm-contact-box-1">
+	<div id="contact-map">
+		<iframe src="https://www.google.com/maps/embed/v1/place?q=%EB%A9%80%ED%8B%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4&key=AIzaSyDdbPoIrCQAdsJGUcY3Ux9wuxuzrJmA6c0">
+		</iframe>
+		 <!-- slider -->
+		<!--<div class="flexslider effect2 effect2-contact tm-contact-box-1">
 			<ul class="slides">
 				<li><img src="img/world-map.png" alt="image"
 					class="contact-image" />
@@ -32,12 +35,11 @@
 						</div>
 					</div></li>
 			</ul>
-		</div>
+		</div> -->
 	</div>
 </section>
-
 <!-- white bg -->
-<section class="section-padding-bottom">
+<section class="section-padding-bottom tm-white-bg">
 	<div class="container">
 		<div class="row">
 			<div class="tm-section-header section-margin-top">
@@ -52,14 +54,11 @@
 				</div>
 			</div>
 		</div>
-		<div id="contact-map">
-					<iframe src="https://www.google.com/maps/embed/v1/place?q=%EB%A9%80%ED%8B%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4&key=AIzaSyDdbPoIrCQAdsJGUcY3Ux9wuxuzrJmA6c0">
-					</iframe>
-					</div>
 		<div class="row">
 			<!-- contact form -->
 			<form action="#" method="post" class="tm-contact-form">
 				<div class="col-lg-6 col-md-6">
+					</div>
 					<div class="contact-social">
 						<a href="#" class="tm-social-icon tm-social-facebook"><i
 							class="fa fa-facebook"></i></a> <a href="#"

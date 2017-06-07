@@ -39,11 +39,7 @@
 		<jsp:include page = "../include/header_nav.jsp" />
 		<!-- Header Nav End-->
 		<jsp:include page = "../include/login_modal.jsp" />		
-	
-		<!-- Header Banner -->
-		<section class="tm-banner">
-			<jsp:include page = "../include/main_banner.jsp" />
-		</section>
+
 		<!-- Header Banner End -->
 	</header>
 	<!-- Header End -->
@@ -55,7 +51,7 @@
 	<!-- Main Content End -->
 	
 	<!-- Footer -->
-	<footer class="tm-black-bg">
+	<footer class="tm-black-bg section-margin-top">
 		<jsp:include page="../include/footer.jsp" />
 	</footer>
 	<!-- Footer End -->

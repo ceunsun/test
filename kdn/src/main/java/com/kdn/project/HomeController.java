@@ -38,6 +38,14 @@ public class HomeController {
 		return "board/board";
 	}
 	
+	@RequestMapping(value = "writeForm.do", method = RequestMethod.GET)
+	public String writeForm(Model model) {
+		
+		model.addAttribute("content", "board_writeForm.jsp");
+		
+		return "board/board";
+	}
+	
 	@RequestMapping(value = "contact.do", method = RequestMethod.GET)
 	public String contact(Model model) {
 		

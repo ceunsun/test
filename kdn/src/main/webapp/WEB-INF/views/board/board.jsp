@@ -24,6 +24,7 @@
 	<script type="text/javascript" src="js/moment.js"></script>
 	<!-- bootstrap js -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
 	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
 	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
 	
